@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="/static/css/base.css">
+<title></title>
+</head>
+<body class="detail-body" data-artist-id="11">
+	@@include('top.html')
+	<div class="dt-face" style="background-image:url(/static/devimg/swipe3.jpg);"></div>
+	<div class="dt-white">
+		<div class="dt-scope">
+			<div class="dt-head">
+				<div><img src="/static/devimg/artist.jpg"></div>
+				<p>Anne LEE</p>
+			</div>
+			<div class="dt-info">
+				<p>国籍：法国</p>
+				<p>语言：法语、英语</p>
+				<p>开设课程：素描、雕塑、油画</p>
+				<p>学生年龄：4-6岁、6-10岁</p>
+			</div>
+			<div class="dt-book">
+				<input type="text" value="18:00 开始" readonly>
+				<input type="text" value="20:00 结束" readonly>
+<!-- 				<select>
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+				</select> -->
+				<div>
+					<span>课程安排</span>
+					<span></span>
+				</div>
+				<p>
+					<span>每周一、三、五</span>
+					<span></span>
+					<span></span>
+				</p>
+				<a class="dt-skype btn green" href="skype.html" target="_blank">现在去上课</a>
+			</div>
+<!-- 			<ul class="dt-about">
+				<li>关于艺术家</li>
+				<li data-id="dt-class">课程<span class="blue">15</span></li>
+				<li data-id="dt-comment">评价<span>35</span></li>
+			</ul> -->
+		</div>
+	</div>
+	<div class="dt-scope">
+		<div class="dt-title dt-work">TA的作品</div>
+		@@include('work-ul.html')
+	</div>
+	<div class="dt-white" id="dt-class">
+		<div class="dt-scope">
+			<div class="dt-title dt-tv">TA的课程</div>
+			@@include('tv-ul.html')
+		</div>
+	</div>
+	<div class="dt-scope" id="dt-comment">
+		<div class="cm-box">
+			<div class="cm-title">
+				<span>评价</span>
+				<span> ( 12条 )</span>
+				<b></b>
+				<b></b>
+				<b></b>
+				<b></b>
+				<i></i>
+			</div>
+			<textarea></textarea>
+			<div class="btn red cm-submit">确定</div>
+			<ul class="cm-ul">
+				<li>
+					<div><img src="/static/devimg/artist.jpg"></div>
+					<span>Josh</span>
+					<p>老师认真负责，教学方法很有自己的特色，是个好老师！老师认真负责，教学方法很有自己的特色，是个好老师！老师认真负责，教学方法很有自己的特色，是个好老师！老师认真负责，教学方法很有自己的特色，是个好老师！</p>
+					<i>18:54</i>
+				</li>
+				<li class="sub">
+					<div><img src="/static/devimg/artist.jpg"></div>
+					<span>来自Anna的回复：</span>
+					<p>老师认真负责，教学方法很有自己的特色，是个好老师！</p>
+					<i></i>
+				</li>
+				<li>
+					<div><img src="/static/devimg/artist.jpg"></div>
+					<span>Josh</span>
+					<p>老师认真负责，教学方法很有自己的特色，是个好老师！</p>
+					<i>18:54</i>
+				</li>
+			</ul>
+			<div class="btn green cm-more">加载更多</div>
+		</div>
+	</div>
+	<div style="height:20px;"></div>
+	<div class="list-subtitle list-scope">TA还教什么</div>
+	@@include('tri.html')
+	<div class="list-subtitle list-scope">同类课程的其他艺术家</div>
+	@@include('tri.html')
+	<div style="height:50px;"></div>
+	@@include('footer.html')
+</body>
+@@include('script.html', {"pagename":"detail"})
+</html>

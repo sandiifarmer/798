@@ -1,0 +1,90 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="/static/css/base.css">
+<title></title>
+</head>
+<body class="home-body">
+	<div class="face-box tab">
+		<div class="swiper-box full">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide" style="background-image:url(/static/devimg/swipe1.jpg);"></div>
+				<div class="swiper-slide" style="background-image:url(/static/devimg/swipe2.jpg);"></div>
+				<div class="swiper-slide" style="background-image:url(/static/devimg/swipe3.jpg);"></div>
+				<div class="swiper-slide" style="background-image:url(/static/devimg/swipe4.jpg);"></div>
+			</div>
+		</div>
+		<a href="#" class="top-login btn red hide">登录</a>
+		<a class="top-user hide clearfix">
+			<span class="top-head"></span>
+			<span class="top-name"></span>
+		</a>
+		<a href="#" class="top-lang en"></a>
+		<div class="face-t center">来art+798...培养孩子的艺术创造力</div>
+		<div class="face-down shade">
+			<form class="center">
+				<input type="text" required>
+				<select>
+					<option value="">学生年龄</option>
+					<option value="3-6">3-6岁</option>
+					<option value="6-10">6-10岁</option>
+					<option value="10-14">10-14岁</option>
+					<option value=">14">14岁以上</option>
+				</select>
+				<select>
+					<option value="">教师国籍</option>
+					<option value="中国">中国</option>
+					<option value="美国">美国</option>
+					<option value="英国">英国</option>
+					<option value="法国">法国</option>
+					<option value="德国">德国</option>
+					<option value="俄罗斯">俄罗斯</option>
+					<option value="意大利">意大利</option>
+					<option value="西班牙">西班牙</option>
+					<option value="日本">日本</option>
+					<option value="韩国">韩国</option>
+				</select>
+				<input type="submit" value="">
+			</form>
+		</div>
+	</div>
+	<div class="nav">
+		<div class="nav-box">
+			<ul>
+				<li class="checked">首页</li>
+				<li>3-6岁</li>
+				<li>6-10岁</li>
+				<li>10-14岁</li>
+				<li>学习流程</li>
+				<li><a href="article.html">平台优势</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="home-block tab">
+		<p>创造力开发</p>
+		<p>适合3-6岁孩子的课程</p>
+		@@include('tri.html')
+		<a href="#" class="btn red block-btn">查看更多艺术家</a>
+	</div>
+	<div class="home-block tab">
+		<p>基础艺术素养</p>
+		<p>适合6-10岁孩子的基础课程</p>
+		@@include('tri.html')
+		<a href="#" class="btn red block-btn">查看更多艺术家</a>
+	</div>
+	<div class="home-block tab">
+		<p>大师级艺术素养</p>
+		<p>适合10-14岁孩子的课程</p>
+		@@include('tri.html')
+		<a href="#" class="btn red block-btn">查看更多艺术家</a>
+	</div>
+	<div class="home-area white tab">
+		<p>不知道适合学习什么课程？</p>
+		<p>填写问卷，让我们替您参谋</p>
+		<a class="home-quiz red btn" href="questionaire.html">去填写问卷</a>
+	</div>
+	@@include('footer.html')
+</body>
+@@include('script.html', {"pagename":"home"})
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="/static/css/base.css">
+<title></title>
+</head>
+<body class="edit-body">
+	@@include('top.html')
+	<div class="my-box clearfix">
+		@@include('my-l.html')
+		<div class="my-r">
+			<div class="my-title">修改密码</div>
+			<form class="my-content">
+				<div class="edit-one">
+					<span>当前密码</span>
+					<input type="password" placeholder="6-8位，字母和数字组合">
+				</div>
+				<div class="edit-one">
+					<span>新的密码</span>
+					<input type="password" placeholder="6-8位，字母和数字组合">
+				</div>
+				<div class="edit-one">
+					<span>确认密码</span>
+					<input type="password" placeholder="再次输入新的密码">
+				</div>
+				<input type="submit" value="保存修改" class="btn green edit-submit">
+			</form>
+		</div>
+	</div>
+	@@include('footer.html')
+</body>
+@@include('script.html', {"pagename":"edit"})
+</html>

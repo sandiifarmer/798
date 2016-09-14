@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="/static/css/base.css">
+<title></title>
+</head>
+<body class="vd-body">
+	@@include('top.html')
+	<div class="dt-scope clearfix">
+		<div class="sk-logo"></div>
+		<div class="sk-tip">请参照教师的授课时间安排 打开skype后开始上课</div>
+		<a class="sk-a btn blue" href="http://skype.gmw.cn/" target="_blank">安装skype</a>
+	</div>
+	<div class="dt-scope">
+		<div class="dt-title dt-tv">推荐课程</div>
+		@@include('tv-ul.html')
+	</div>
+	@@include('footer.html')
+</body>
+@@include('script.html', {"pagename":"skype"})
+</html>

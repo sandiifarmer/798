@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="/static/css/base.css">
+<title></title>
+</head>
+<body class="coupon-body">
+	@@include('top.html')
+	<div class="my-box clearfix">
+		@@include('my-l.html')
+		<div class="my-r">
+			<div class="my-title">我的优惠券</div>
+			<div class="my-content">
+				<div class="coupon-one coupon-50">50元</div>
+				<div class="coupon-one coupon-100">100元</div>
+			</div>
+		</div>
+	</div>
+	@@include('footer.html')
+</body>
+@@include('script.html', {"pagename":"coupon"})
+</html>

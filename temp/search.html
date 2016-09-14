@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="/static/css/base.css">
+<title></title>
+</head>
+<body class="sch-body" data-key-word="kk">
+	@@include('top.html')
+	<div class="face-box" style="background-image:url(/static/devimg/swipe1.jpg)">
+		<div class="face-down shade">
+			<form class="center">
+				<input type="text" required>
+				<input type="submit" value="">
+			</form>
+		</div>
+	</div>
+	<div class="dt-scope">
+		<div class="sch-rs">一共为您搜索到87条结果</div>
+		@@include('tv-ul.html')
+	</div>
+	@@include('footer.html')
+</body>
+@@include('script.html', {"pagename":"search"})
+</html>

@@ -1,0 +1,23 @@
+{
+	"code" : 200,
+	"content" : [
+		{
+			"name":"安德森",
+			"pic":"/static/devimg/1.jpg",
+			"content":"哈哈哈哈还不错",
+			"time":"2010-10-10 18:54"
+		},{
+			"name":"安德森",
+			"pic":"/static/devimg/1.jpg",
+			"content":"哈哈哈哈还不错",
+			"time":"2010-10-10 18:54"
+		},{
+			"name":"安德森",
+			"pic":"/static/devimg/1.jpg",
+			"content":"哈哈哈哈还不错",
+			"time":"2010-10-10 18:54"
+		}
+	],
+	"pageNo":2,
+	"pageSize":8
+}

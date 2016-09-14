@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="/static/css/base.css">
+<title></title>
+</head>
+<body class="vd-body">
+	@@include('top.html')
+	<div class="dt-scope">
+		<div class="vd-title">视频名称视频名称视频名称</div>
+	</div>	
+	<div class="dt-scope clearfix">
+		<div class="vd-box">
+			<video width="720" height="450" src="/static/data/1.mp4" controls></video>
+		</div>
+		<div class="vd-r">
+			<p>关于艺术家</p>
+			<div class="vd-head"><img src="/static/devimg/artist.jpg"></div>
+			<p>国籍：法国</p>
+			<p>语言：法语</p>
+			<p>课程：素描 雕塑</p>
+			<a href="#" class="vd-a btn red">访问TA的主页</a>
+		</div>
+	</div>
+	<div class="dt-scope">
+		<div class="dt-title dt-tv">相关课程</div>
+		@@include('tv-ul.html')
+	</div>
+	@@include('footer.html')
+</body>
+@@include('script.html', {"pagename":"video"})
+</html>

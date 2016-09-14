@@ -1,0 +1,102 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="/static/css/base.css">
+<title></title>
+</head>
+<body class="mf-a-body">
+	<div class="am-logo"></div>
+	<div class="am-title"></div>
+	<form class="am-form clearfix">
+		<div class="am-half">
+			<div class="am-row">
+				<span>邮箱</span>
+				<input type="text" placeholder="请输入您的邮箱" value="xxxx@gmail.com" readonly>				
+			</div>
+			<div class="am-row">
+				<span>手机号</span>
+				<input type="text" placeholder="请输入您的手机号">				
+			</div>
+			<div class="am-row">
+				<span>姓名</span>
+				<input type="text" placeholder="请输入您的姓名" required>
+			</div>
+			<div class="am-row">
+				<span>国籍</span>
+				<input type="text" placeholder="请输入您的国籍" required>
+			</div>
+			<div class="am-row">
+				<span>开设课程</span>
+				<div class="am-right">
+					<i><input type="checkbox">素描速写课程</i>
+					<i><input type="checkbox">创意材料课程</i>
+					<i><input type="checkbox">油画课程</i>
+					<i><input type="checkbox">故事绘本课程</i>
+					<i><input type="checkbox">版画课程</i>
+					<i><input type="checkbox">雕塑课程</i>
+					<i><input type="checkbox">世界各国传统文化艺术</i>
+					<i><input type="checkbox">世界著名艺术作品赏析</i>
+				</div>
+			</div>
+			<div class="am-row">
+				<span>学生年龄</span>
+				<div class="am-right">
+					<i><input type="checkbox">3-6岁</i>
+					<i><input type="checkbox">6-10岁</i>
+					<i><input type="checkbox">10-14岁</i>
+					<i><input type="checkbox">14岁以上</i>
+				</div>
+			</div>
+			<div class="am-row">
+				<a href="klass-upload.html" class="btn blue am-klass-a">课程管理</a>
+				<a href="pwd-a.html" class="btn green am-pwd-a">修改密码</a>
+			</div>
+		</div>
+		<div class="am-half">
+			<div class="am-row">
+				<span>头像</span>
+				<div class="am-icon-pic"></div>
+				<div class="btn blue am-icon-up">上传头像</div>
+				<input type="file" class="am-icon-input hide">
+				<input type="hidden" class="am-icon-hidden">
+			</div>
+			<div class="am-row">
+				<span>语言</span>
+				<div class="am-right">
+					<i><input type="checkbox">汉语</i>
+					<i><input type="checkbox">英语</i>
+					<i><input type="checkbox">日语</i>
+					<i><input type="checkbox">法语</i>
+					<i><input type="checkbox">俄语</i>
+					<i><input type="checkbox">德语</i>
+					<i><input type="checkbox">西班牙语</i>
+					<i><input type="checkbox">意大利语</i>
+				</div>
+			</div>
+			<p class="am-p">上传作品</p>
+			<ul class="work-ul clearfix">
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<input type="file" class="file hide">
+				<input type="file" class="file hide">
+				<input type="file" class="file hide">
+				<input type="file" class="file hide">
+				<input type="file" class="file hide">
+				<input type="hidden" class="hidden">
+				<input type="hidden" class="hidden">
+				<input type="hidden" class="hidden">
+				<input type="hidden" class="hidden">
+				<input type="hidden" class="hidden">
+			</ul>
+		</div>
+		<input type="submit" class="btn red" value="提交">
+	</form>
+</body>
+<script src="/static/js/lib/jq.min.js"></script>
+<script src="/static/js/lib/form.min.js"></script>
+<script src="/static/js/lib/require.min.js" data-main="/static/js/main.js" id="page-name" data-page-name="modify-a"></script>
+</html>

@@ -1,0 +1,9 @@
+{
+  "name": "greto",
+  "version": "0.1.0",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-include-replace": "~3.2.0",
+    "grunt-string-replace": "~1.2.0"
+  }
+}

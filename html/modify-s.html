@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="/static/css/base.css">
+<title></title>
+</head>
+<body class="mf-s-body">
+	<div class="am-logo"></div>
+	<div class="am-title"></div>
+	<form class="am-form clearfix">
+		<div class="am-half">
+			<div class="am-row">
+				<span>手机号</span>
+				<input type="text" placeholder="请输入手机号" value="13487638987" readonly>
+			</div>
+			<div class="am-row">
+				<span>邮箱</span>
+				<input type="text" placeholder="请输入邮箱地址" required>
+			</div>
+			<div class="am-row">
+				<span>姓名</span>
+				<input type="text" placeholder="请输入姓名" required>
+			</div>
+		</div>
+		<div class="am-half">
+			<div class="am-row">
+				<span>头像</span>
+				<div class="am-icon-pic"></div>
+				<div class="btn blue am-icon-up">上传头像</div>
+				<input type="file" class="am-icon-file hide">
+				<input type="hidden" class="am-icon-hidden">
+			</div>
+			<div class="am-row">
+				<span>性别</span>
+				<div class="am-right clearfix">
+					<i><input type="radio" name="sex" checked>男</i>
+					<i><input type="radio" name="sex">女</i>
+				</div>
+			</div>
+		</div>
+		<input type="submit" class="btn red" value="提交">
+	</form>
+</body>
+<script src="/static/js/lib/jq.min.js"></script>
+<script src="/static/js/lib/form.min.js"></script>
+<script src="/static/js/lib/require.min.js" data-main="/static/js/main.js" id="page-name" data-page-name="modify-s"></script>
+</html>

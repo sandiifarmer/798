@@ -1,0 +1,26 @@
+{
+	"code" : 200,
+	"content" : [
+		{
+			"name":"安德森",
+			"pic":"/static/devimg/1.jpg",
+			"nation":"美国",
+			"klass":"素描、雕塑、艺术",
+			"url":"detail.html"
+		},{
+			"name":"安德森",
+			"pic":"/static/devimg/1.jpg",
+			"nation":"美国",
+			"klass":"素描、雕塑、艺术",
+			"url":"detail.html"
+		},{
+			"name":"安德森",
+			"pic":"/static/devimg/1.jpg",
+			"nation":"美国",
+			"klass":"素描、雕塑、艺术",
+			"url":"detail.html"
+		}
+	],
+	"pageNo":2,
+	"pageSize":6
+}
